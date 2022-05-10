@@ -1,5 +1,5 @@
-FROM anasty17/mltb:latest
-# FROM anasty17/mltb-oracle:latest
+#FROM anasty17/mltb:latest
+FROM anasty17/mltb-oracle:latest
 RUN apt install mediainfo -y
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
